@@ -1,0 +1,14 @@
+name: clim-680-nblancoalcala
+channels:
+- conda-forge
+dependencies:
+- python
+- jupyterlab
+- jupyter_client
+- netcdf4
+- numpy
+- xarray
+- matplotlib
+- cartopy
+- pandas
+- scipy
