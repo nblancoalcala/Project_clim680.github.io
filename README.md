@@ -37,17 +37,43 @@ The environment.yml file lists all of modules needed to run the code. This inclu
 * Matplotlib
 * Etc. (refer to environment.yml)
 
-## Analysis
+## Code & Analysis
+
+### Annual Air Temperature Mean
+Overall: I calculated the overall mean air temperatures from 1900-2014 in °C. Here it is evident that the highest mean temperatures occur at the tropics, right next to the equator, while the lowest temperatures occur at the poles, especially Antarctica. With this I plotted a map of the monthly mean temperatures in the entire world, along with a time series plot of the overall global monthly mean air temperature.
+
+1979-2000: I sliced the overall data into this first time period (TP1), from January 1979 to December 2000. I plotted a map and a time series plot of this data.
+
+2000-2014: I sliced the overall data into this second time period (TP2), from January 2000 to December 2014. I plotted a map and a time series plot of this data.
+
+Difference & Analysis: After plotting the data for both time periods, I then took the difference of the first time period from the second (TP2-TP1), and plotted the result into a map. Here we see that the temperatures of TP2 overall are slightly higher than the overall temperatures for TP1. The difference in temperature is as high as 7.3°C, likely in western Greenland or Northern Continental Russia, and as low as -6.16°C, likely in north eastern Antarctica, or north central continental Africa. The mean temperature difference is around 0.387°C, which can conclude that globally, there has been an average increase in air temperature by around 0.387°C from TP1 to TP2.
+
 
 ### Annual Precipitation Mean
 
-### Annual Air Temperature Mean
+Method & Overall: I calculated the overall mean precipitation from 1979-2020 in millimeters per day (mm/day). Here it is evident that the highest mean precipitation occur near the equator in the Pacific, while the lowest mean precipitation occurs at the poles. With this I plotted a map of the monthly mean precipitation in the entire world, along with a time series plot of the overall global monthly mean precipitation.
+
+1979-2000: I sliced the overall data into this first time period (TP1), from January 1979 to December 2000. I plotted a map and a time series plot of this data.
+
+2000-2014: I sliced the overall data into this second time period (TP2), from January 2000 to December 2014. I plotted a map and a time series plot of this data.
+
+Differences & Analysis: After plotting the data for both time periods, I again  took the difference of the first time period from the second (TP2-TP1), and plotted the result into a map. Here we can see that the biggest positive differences occur in the western Pacific, north of Australia and in the Oceania region, and the maximum value in the world is 1.49 mm/day. The biggest negative differences occur in the Southern Hemispheric equator, with the lowest value in the world being -1.76 mm/day. The mean precipitation difference is around 0.013 mm/day, and from this we can conclude that overall, globally there has be an increase in monthly mean precipitation by 0.013 mm/day, which is very negligible.
 
 ### Air Temperature Climatology
 
-### Precipitation Climatology
+### Precipitation Anomalies & Climatology
+
+Method: Precipitation climatology was calculated using the 'groupby' function, in which the time was grouped into months and the average was then taken by month. Precipitation Anomalies was calculated by grouping the precipitation data together by month, and subtracting that by the climatology.
+
+Anomalies Analysis: I plotted a global map of precipitation anomalies from 1979-2020. It is shown here that the biggest precipitation anomalies occur in northern Australia, Oceania, and western Brazil, and the highest value is 37.7296 mm/day. The lowest anomalies occur in the central Indian Ocean, in a relatively similar region as the highest, with the lowest value being -18.9243 mm/day. The mean precipitation anomaly is around 2.6e-09, so it can be concluded that most over the world does not see a substantial change in precipitation throughout time.
+
+Climatology Analysis: I plotted a 12-panel plot of monthly mean precipitation climatology, each panel being an individual month. The change in precipitation throughout the month stays very uniform in the equator, and there is not much change in the mid-latitudes either. The biggest differences can be seen near the Indian Ocean during the summer, and this can be attributed to the Indian Monsoon.
 
 ### Correlation between Precipitation and Air Temperature
+
+Method: A correlation was created here between temperature and precipitation by matching the time periods between both datasets, calculating climatology and anomolies (done before), creating a correlation variable through xarray, and plotting the correlation map of the entire world with significance (p-value of 0.05). In the map, the longitude is centered at 180°, because it appeared the smoothest at that location.
+
+Analysis: Overall there is a very slight global correlation between precipitation and temperature. Some areas of extremes include Asia for the greatest positive correlation, and eastern Europe and the western coast of Europe for the greatest negative correlation. From this we can conclude that although in some areas temperature and precipitation may be correlated, overall most of the world does not have a strong correlation.
 
 ### Composite Precipitation Anomalies during ENSO
 
