@@ -48,8 +48,20 @@ Overall: I calculated the overall mean air temperatures from 1900-2014 in °C. H
 
 Difference & Analysis: After plotting the data for both time periods, I then took the difference of the first time period from the second (TP2-TP1), and plotted the result into a map. Here we see that the temperatures of TP2 overall are slightly higher than the overall temperatures for TP1. The difference in temperature is as high as 7.3°C, likely in western Greenland or Northern Continental Russia, and as low as -6.16°C, likely in north eastern Antarctica, or north central continental Africa. The mean temperature difference is around 0.387°C, which can conclude that globally, there has been an average increase in air temperature by around 0.387°C from TP1 to TP2.
 
-Plots:
+
 <img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/d88ca57d-353f-4601-82b8-061487380d43">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/b6524870-f9dd-4a1b-915c-9e9c827ac277">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/5962c232-ce6d-4ab3-81b4-0b33ca63857c">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/1c994e6e-7252-487e-87b1-1ce6309cfa81">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/4998839f-1d5a-4e7a-819c-1a38829eec5a">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/efa96a6e-d66b-4704-922f-4e447b4575f0">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/06711f3a-fbf1-4734-9fed-fc72a8b45063">
 
 
 ### Annual Precipitation Mean
