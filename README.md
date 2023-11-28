@@ -20,7 +20,7 @@ The Global Precipitation Climatology Project, or [GCPC] (https://psl.noaa.gov/da
 
 
 
-## Results & Codes
+## Codes & Results
 
 #### Functions
 A few of the functions that were created in this project include:
@@ -77,10 +77,22 @@ Analysis: Overall there is a very slight global correlation between precipitatio
 
 ### Composite Precipitation Anomalies during ENSO
 
+Method: To make a composite precipitation anomaly plot during ENSO, the precipitation data was sliced to match the time frame of the Niño 3.4 data. The the conditions of El Niño, La Niña, and neutral conditions were defined. Then, a composite was calculated for El Niño precipitation, La Niña precipiation, and neutral condition precipitation. The 3-panel plot was then created to view to the composite precipitation anomalies during ENSO.
+
+Analysis: During El Niño, there is a clear increase in precipitation anomalies in the equatorial Pacific Ocean. During La Niña there is a slight decrease in precipitation in the equatorial Pacific Ocean, and not much change anywhere else. In neutral conditions there is not much difference in precipitation anomalies, which makes sense considering that neutral conditions will likely bring average amounts of rainfall, and that there are many more instances of neutral conditions than El Niño or La Niña.
+
 ### Composite Temperature Anomalies during ENSO
 
-### Composite Temperature Differences between El Niño and Neutral
+Method: To make a composite temperature anomaly plot during ENSO, the temperature data was sliced to match the time frame of the Niño 3.4 data. The the conditions of El Niño, La Niña, and neutral conditions were defined. Then, a composite was calculated for El Niño temperature, La Niña temperature, and neutral condition temperature. The 3-panel plot was then created to view to the composite temperature anomalies during ENSO. To note, only the land surface data is observed.
 
-### Composite Temperature Differences between La Niña and Neutral
+Analysis: During El Niño, there is are large positive temperature anomalies in the continental United States, and there are slight negative temperature anomalies in eastern Russia and Antarctica. During La Niña, the temperature anomalies are not as extreme, but the highest positive anomalies occur in eastern Russia, and highest negative anomalies occur in Antarctica. During neutral conditions, theres are extreme temperature anomalies in central Russia and Alaska, with highest negative anomalies occuring in Antarctica.
+
+### Composite Temperature Differences between El Niño and Neutral, and La Niña and Neutral
+
+Method: From the previously created composites between ENSO and temperature anomalies, I calculated the difference by created a variable and making it equal to the Neutral composite minus the El Niño composite, and again with Neutral composite minus La Niña composite.
+
+Analysis: For the difference between neutral and El Niño, there are very large negative difference in the United States, and large postive differences in Northern Europe. With this we can confirm that the temperatures during El Niño in the U.S. are higher than in neutral conditions, and in Europe, the temperatures and lower. For the difference between neutral and La Niña, there are large positive difference in northern Europe (close to/in Russia), and in Alaska/NW Canada. Here we can conclude that during La Niña, the temperatures of these places are colder than in neutral conditions.
+
+### Composite Precipitation Differences between El Niño and Neutral, La Niña and Neutral
 
 ### Correlation between Niño 3.4 and Temperature Anomalies
