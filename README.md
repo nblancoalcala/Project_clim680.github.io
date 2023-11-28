@@ -132,7 +132,7 @@ Analysis: During El Niño, there is are large positive temperature anomalies in 
 
 Method: From the previously created composites between ENSO and temperature anomalies, I calculated the difference by created a variable and making it equal to the Neutral composite minus the El Niño composite, and again with Neutral composite minus La Niña composite. I plotted both composites on a 2 panel plot, and I plotted the composites with significance using a p-value of 0.05.
 
-Analysis: For the difference between neutral and El Niño, there are very large negative difference in the United States, and large postive differences in Northern Europe. With this we can confirm that the temperatures during El Niño in the U.S. are higher than in neutral conditions, and in Europe, the temperatures and lower. For the difference between neutral and La Niña, there are large positive difference in northern Europe (close to/in Russia), and in Alaska/NW Canada. Here we can conclude that during La Niña, the temperatures of these places are colder than in neutral conditions.
+Analysis: For the difference between neutral and El Niño, there are very large negative difference in the United States, and large positive differences in Northern Europe. With this we can confirm that the temperatures during El Niño in the U.S. are higher than in neutral conditions, and in Europe, the temperatures and lower. For the difference between neutral and La Niña, there are large positive difference in northern Europe (close to/in Russia), and in Alaska/NW Canada. Here we can conclude that during La Niña, the temperatures of these places are colder than in neutral conditions.
 
 <img width="449" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/4c3620ff-ef2b-45d3-aaa5-722194199df1">
 
@@ -144,7 +144,7 @@ Analysis: For the difference between neutral and El Niño, there are very large 
 
 Method: I created a correlation between the Niño 3.4 and temperature anomalies using Xarray and plotted the global correlation.
 
-Analysis: In northern South America there is a very strong correlation between ENSO and temperature anomalies. In other parts of the world the positive and negative correlations are not as strong. We can gather that in most regions in the world there is not a big correlation between land air temperature and ENSO, but in some regions there are hotspots where they are correlated.
+Analysis: In northern South America there is a very strong correlation between ENSO and temperature anomalies. In other parts of the world the positive and negative correlations are not as strong. We can gather that in most regions in the world there is not a strong correlation between land air temperature and ENSO, but in some regions there are hotspots where they are correlated.
 
 <img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/9e5f9e57-8afd-49ee-b4e4-1a87e3c7b992">
 
