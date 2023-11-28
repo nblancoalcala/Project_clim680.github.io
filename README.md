@@ -17,8 +17,8 @@ The [University of Delaware's](https://www.psl.noaa.gov/data/gridded/data.UDel_A
 _GPCP Precipitation_
 The Global Precipitation Climatology Project, or [GCPC](https://psl.noaa.gov/data/gridded/data.gpcp.html), is a monthly global precipitation dataset ranging from January 1979 to September 2023. It has a resolution of 2.5 degree latitude x 2.5 degree longitude global grid (144x72).
 
-
-
+_Niño 3.4_
+The Niño 3.4 is a climate index which represents the average equatorial SST's in the Pacific Ocean and is the most commonly used to define El Niño and La Niña events. This was found in the following path: '/home/lortizur/clim680/nino34_1982-2019.oisstv2_anoms.nc'
 
 ## Codes & Results
 
