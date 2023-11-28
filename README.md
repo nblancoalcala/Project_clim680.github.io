@@ -104,13 +104,13 @@ Climatology Analysis: I plotted a 12-panel plot of monthly mean precipitation cl
 
 ### Correlation between Precipitation and Air Temperature
 
-Method: A correlation was created here between temperature and precipitation by matching the time periods between both datasets, calculating climatology and anomolies (done before), creating a correlation variable through xarray, and plotting the correlation map of the entire world with significance (p-value of 0.05). In the map, the longitude is centered at 180°, because it appeared the smoothest at that location.
+Method: A correlation was created between temperature and precipitation by matching the time periods between both datasets, calculating climatology and anomolies (done before), creating a correlation variable through xarray, and plotting the correlation map of the entire world with significance (p-value of 0.05). In the map, the longitude is centered at 180°, because it appeared the smoothest at that location.
 
 Analysis: Overall there is a very slight global correlation between precipitation and temperature. Some areas of extremes include Asia for the greatest positive correlation, and eastern Europe and the western coast of Europe for the greatest negative correlation. From this we can conclude that although in some areas temperature and precipitation may be correlated, overall most of the world does not have a strong correlation.
 
 ### Composite Precipitation Anomalies during ENSO
 
-Method: To make a composite precipitation anomaly plot during ENSO, the precipitation data was sliced to match the time frame of the Niño 3.4 data. The the conditions of El Niño, La Niña, and neutral conditions were defined. Then, a composite was calculated for El Niño precipitation, La Niña precipiation, and neutral condition precipitation. The 3-panel plot was then created to view to the composite precipitation anomalies during ENSO.
+Method: To make a composite precipitation anomaly plot during ENSO, the precipitation data was sliced to match the time frame of the Niño 3.4 data. The conditions of El Niño, La Niña, and neutral conditions were defined. Then, a composite was calculated for El Niño precipitation, La Niña precipiation, and neutral condition precipitation. The 3-panel plot was then created to view to the composite precipitation anomalies during ENSO.
 
 Analysis: During El Niño, there is a clear increase in precipitation anomalies in the equatorial Pacific Ocean. During La Niña there is a slight decrease in precipitation in the equatorial Pacific Ocean, and not much change anywhere else. In neutral conditions there is not much difference in precipitation anomalies, which makes sense considering that neutral conditions will likely bring average amounts of rainfall, and that there are many more instances of neutral conditions than El Niño or La Niña.
 
