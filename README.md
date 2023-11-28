@@ -12,10 +12,10 @@ This goal of this project is to look at the relationship between temperature and
 The datasets I used are:
 
 _Terrestrial Air Temperature and Precipitation_
-The [University of Delaware's] (https://www.psl.noaa.gov/data/gridded/data.UDel_AirT_Precip.html) Terrestrial Air Temperature and Precipitation dataset is monthly temperature and precipitation (only the temperature is used in this project) ranging from January 1900 to December 2014. It has a resolution of 0.5 degree latitude x 0.5 degree longitude global grid (720x360).
+The [University of Delaware's](https://www.psl.noaa.gov/data/gridded/data.UDel_AirT_Precip.html) Terrestrial Air Temperature and Precipitation dataset is monthly temperature and precipitation (only the temperature is used in this project) ranging from January 1900 to December 2014. It has a resolution of 0.5 degree latitude x 0.5 degree longitude global grid (720x360).
 
 _GPCP Precipitation_
-The Global Precipitation Climatology Project, or [GCPC] (https://psl.noaa.gov/data/gridded/data.gpcp.html), is a monthly global precipitation dataset ranging from January 1979 to September 2023. It has a resolution of 2.5 degree latitude x 2.5 degree longitude global grid (144x72).
+The Global Precipitation Climatology Project, or [GCPC](https://psl.noaa.gov/data/gridded/data.gpcp.html), is a monthly global precipitation dataset ranging from January 1979 to September 2023. It has a resolution of 2.5 degree latitude x 2.5 degree longitude global grid (144x72).
 
 
 
@@ -74,7 +74,19 @@ Method & Overall: I calculated the overall mean precipitation from 1979-2020 in 
 
 Differences & Analysis: After plotting the data for both time periods, I again  took the difference of the first time period from the second (TP2-TP1), and plotted the result into a map. Here we can see that the biggest positive differences occur in the western Pacific, north of Australia and in the Oceania region, and the maximum value in the world is 1.49 mm/day. The biggest negative differences occur in the Southern Hemispheric equator, with the lowest value in the world being -1.76 mm/day. The mean precipitation difference is around 0.013 mm/day, and from this we can conclude that overall, globally there has be an increase in monthly mean precipitation by 0.013 mm/day, which is very negligible.
 
-### Air Temperature Climatology
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/7b8b086a-9807-449f-9fc0-f18a5811f601">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/0657315d-e2d2-483e-8455-32a1bddf5994">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/e283c415-2cad-4e86-964d-552e0bde6405">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/8082976e-41d5-4ebb-be38-fe0255ea3a31">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/eb7ae79b-2b0e-4dc3-b25e-7840d3ca5eb3">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/08160e49-5283-4611-a69f-cb3a87de69f1">
+
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/f202ce8b-604f-4f54-9d66-203eccf18216">
 
 ### Precipitation Anomalies & Climatology
 
