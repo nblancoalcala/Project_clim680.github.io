@@ -42,7 +42,7 @@ The environment.yml file lists all of modules needed to run the code. This inclu
 ## Code & Analysis
 
 ### Annual Air Temperature Mean
-Overall: I calculated the overall mean air temperatures from 1900-2014 in °C. Here it is evident that the highest mean temperatures occur at the tropics, right next to the equator, while the lowest temperatures occur at the poles, especially Antarctica. With this I plotted a map of the monthly mean temperatures in the entire world, along with a time series plot of the overall global monthly mean air temperature.
+Method & Overall: I calculated the overall mean air temperatures from 1900-2014 in °C. Here it is evident that the highest mean temperatures occur at the tropics, right next to the equator, while the lowest temperatures occur at the poles, especially Antarctica. With this I plotted a map of the monthly mean temperatures in the entire world, along with a time series plot of the overall global monthly mean air temperature.
 
 1979-2000: I sliced the overall data into this first time period (TP1), from January 1979 to December 2000. I plotted a map and a time series plot of this data.
 
