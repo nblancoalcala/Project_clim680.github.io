@@ -22,6 +22,8 @@ The Niño 3.4 is a climate index which represents the average equatorial SST's i
 
 ## Codes & Results
 
+The code for this project can be found in this [notebook]()
+
 #### Functions
 A few of the functions that were created in this project include:
 * Labeling plots
@@ -143,5 +145,12 @@ Analysis: In northern South America there is a very strong correlation between E
 
 <img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/9e5f9e57-8afd-49ee-b4e4-1a87e3c7b992">
 
+## Conclusion & Summary
+Summary:
+Using the data and plots from this project, we can conclude that air temperatures over land surfaces have increased over time, but that precipitation is not as correlated with temperature as I initially expected. There are other factors that go into the change in precipitation with time, which could be investigated further in future studies. With the ENSO data, the results were more expected in that El Niño brings more rain to the Pacific, while La Niña brings less. It also confirmed known temperatures trends as well, in that in an El Niño the continental United States typically sees warmer winters. 
 
+In future projects and analysis regarding this topic, an improvement could have been to include composites between Niño 3.4 and Precipitation anomalies, which couldn't be completed in this project due to time constraints. 
+
+Issues: 
+The biggest issue I encountered was calculating and plotting the significance, I have a lot of trouble getting it to work with the data that I had. The creation of the Github page/report was also very challenging initially, but once I got it to work, I was able to fill it in and complete it very quickly.
 
