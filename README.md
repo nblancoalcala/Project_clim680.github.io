@@ -22,7 +22,7 @@ The Niño 3.4 is a climate index which represents the average equatorial SST's i
 
 ## Codes & Results
 
-The code for this project can be found in this [notebook]()
+The code for this project can be found in this [notebook](https://github.com/nblancoalcala/Project_clim680.github.io/blob/master/project_clim680.ipynb)
 
 #### Functions
 A few of the functions that were created in this project include:
