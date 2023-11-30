@@ -134,8 +134,6 @@ Method: From the previously created composites between ENSO and temperature anom
 
 Analysis: For the difference between neutral and El Niño, there are very large negative difference in the United States, and large positive differences in Northern Europe. With this we can confirm that the temperatures during El Niño in the U.S. are higher than in neutral conditions, and in Europe, the temperatures and lower. For the difference between neutral and La Niña, there are large positive difference in northern Europe (close to/in Russia), and in Alaska/NW Canada. Here we can conclude that during La Niña, the temperatures of these places are colder than in neutral conditions.
 
-<img width="449" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/4c3620ff-ef2b-45d3-aaa5-722194199df1">
-
 <img width="429" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/eaca9595-e285-46a0-994e-5a1c2e7198ef">
 
 <img width="429" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/b988f2c1-3229-456a-803e-72c7ec91b9b8">
