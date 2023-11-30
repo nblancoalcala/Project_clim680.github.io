@@ -108,7 +108,7 @@ Method: A correlation was created between temperature and precipitation by match
 
 Analysis: Overall there is a very slight global correlation between precipitation and temperature. Some areas of extremes include Asia for the greatest positive correlation, and eastern Europe and the western coast of Europe for the greatest negative correlation. From this we can conclude that although in some areas temperature and precipitation may be correlated, overall most of the world does not have a strong correlation.
 
-<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/daf08a13-57a9-4b77-8e2d-4a7e01b917b7">
+<img width="468" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/f9991e96-0078-4226-8327-149300a613e2">
 
 ### Composite Precipitation Anomalies during ENSO
 
@@ -118,7 +118,6 @@ Analysis: During El Niño, there is a clear increase in precipitation anomalies 
 
 <img width="314" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/aec5a047-4f0d-453b-b00f-dbb0e53d6e93">
 
-
 ### Composite Temperature Anomalies during ENSO
 
 Method: To make a composite temperature anomaly plot during ENSO, the temperature data was sliced to match the time frame of the Niño 3.4 data. The the conditions of El Niño, La Niña, and neutral conditions were defined. Then, a composite was calculated for El Niño temperature, La Niña temperature, and neutral condition temperature. The 3-panel plot was then created to view to the composite temperature anomalies during ENSO. To note, only the land surface data is observed.
@@ -127,16 +126,15 @@ Analysis: During El Niño, there is are large positive temperature anomalies in 
 
 <img width="314" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/b7efdd86-2335-4628-9919-6783e9ff2e5f">
 
-
 ### Composite Temperature Differences between El Niño and Neutral, & La Niña and Neutral
 
 Method: From the previously created composites between ENSO and temperature anomalies, I calculated the difference by created a variable and making it equal to the Neutral composite minus the El Niño composite, and again with Neutral composite minus La Niña composite. I plotted both composites on a 2 panel plot, and I plotted the composites with significance using a p-value of 0.05.
 
 Analysis: For the difference between neutral and El Niño, there are very large negative difference in the United States, and large positive differences in Northern Europe. With this we can confirm that the temperatures during El Niño in the U.S. are higher than in neutral conditions, and in Europe, the temperatures and lower. For the difference between neutral and La Niña, there are large positive difference in northern Europe (close to/in Russia), and in Alaska/NW Canada. Here we can conclude that during La Niña, the temperatures of these places are colder than in neutral conditions.
 
-<img width="429" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/eaca9595-e285-46a0-994e-5a1c2e7198ef">
+<img width="429" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/4e266a11-f742-44b4-b95e-366a6057f420">
 
-<img width="429" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/b988f2c1-3229-456a-803e-72c7ec91b9b8">
+<img width="429" alt="image" src="https://github.com/nblancoalcala/Project_clim680.github.io/assets/142943512/a90a17c7-8b59-4e08-9969-6d815b4f9fa0">
 
 ### Correlation between Niño 3.4 and Temperature Anomalies
 
